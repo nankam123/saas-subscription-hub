@@ -1,22 +1,21 @@
-\# 🌐 SaaS Subscription Hub
+ 🌐 SaaS Subscription Hub
 
 
 
-A \*\*multi-tenant SaaS platform\*\* that enables businesses to manage customer subscriptions, billing, and analytics.  
+A multi-tenant SaaS platform that enables businesses to manage customer subscriptions, billing, and analytics.  
 
-Designed to demonstrate \*\*SaaS architecture principles\*\*, \*\*scalable delivery frameworks\*\*, and \*\*modern DevOps practices\*\*.
+
 
 
 
 ---
 
 
-
-\## 🚀 Overview
-
+ 🚀 Overview
 
 
-\*\*SaaS Subscription Hub\*\* is built as a modular cloud-native system that supports:
+
+SaaS Subscription Hub is built as a modular cloud-native system that supports:
 
 \- Multi-tenant user management
 
@@ -30,7 +29,7 @@ Designed to demonstrate \*\*SaaS architecture principles\*\*, \*\*scalable deliv
 
 
 
-This project demonstrates the \*\*end-to-end lifecycle\*\* of a SaaS solution—from product vision and architecture to delivery and continuous improvement.
+This is an example of end-to-end lifecycle of a SaaS solution—from product vision and architecture to delivery and continuous improvement.
 
 
 
@@ -38,37 +37,29 @@ This project demonstrates the \*\*end-to-end lifecycle\*\* of a SaaS solution—
 
 
 
-\## 🧩 Tech Stack
+🧩 Tech Stack
 
+ \- Frontend : React (Next.js) + Tailwind CSS
 
+ \- Backend : Node.js (Express / NestJS) 
 
-| Layer | Technology |
+ \- Database : PostgreSQL (Multi-tenant schema) 
 
-|-------|-------------|
+ \- Auth : JWT + OAuth2 (Auth0 integration) 
 
-| Frontend | React (Next.js) + Tailwind CSS |
+ \- Payments : Stripe API 
 
-| Backend | Node.js (Express / NestJS) |
+ \- Infra : Docker + Terraform + AWS ECS 
 
-| Database | PostgreSQL (Multi-tenant schema) |
+ \- CI/CD : GitHub Actions 
 
-| Auth | JWT + OAuth2 (Auth0 integration) |
-
-| Payments | Stripe API |
-
-| Infra | Docker + Terraform + AWS ECS |
-
-| CI/CD | GitHub Actions |
-
-| Monitoring | OpenTelemetry + Grafana |
-
-
+ \- Monitoring : OpenTelemetry + Grafana 
 
 ---
 
+<!--
 
-
-\## 🏗️ Architecture
+🏗️ Architecture
 
 
 
@@ -91,40 +82,32 @@ This project demonstrates the \*\*end-to-end lifecycle\*\* of a SaaS solution—
 
 
 ---
+-->
 
 
+🧠 Core Features
 
-\## 🧠 Core Features
+\-  User Management : Signup, onboarding, and tenant provisioning 
 
+ \- Subscription : Create/edit/cancel plans, manage usage tiers 
 
+ \- Billing : Integrated with Stripe 
 
-| Category | Description |
+ \- Analytics : Revenue and engagement dashboards 
 
-|-----------|--------------|
+ \- Admin Console : Manage tenants, view health metrics 
 
-| User Management | Signup, onboarding, and tenant provisioning |
-
-| Subscription | Create/edit/cancel plans, manage usage tiers |
-
-| Billing | Integrated with Stripe |
-
-| Analytics | Revenue, churn, and engagement dashboards |
-
-| Admin Console | Manage tenants, view health metrics |
-
-| API Gateway | Secure, versioned API layer |
-
+ \- API Gateway : Secure, versioned API layer 
 
 
 ---
 
 
-
-\## ⚙️ Getting Started
-
+⚙️ Getting Started
 
 
-\### 1️⃣ Clone the Repository
+
+ 1️⃣ Clone the Repository
 
 ```bash
 
